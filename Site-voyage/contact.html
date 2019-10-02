@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Test site E-commerce</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="robots" content="noindex">
+  <meta name="googlebot" content="noindex">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+</head>
+
+<body>
+  <div class="main">
+	
+	<nav id="homeNav">
+	  	<div class="container">
+	  		<div class="row">
+				<div class="col-lg-2">
+					<a href="#"><img alt="logo" src="image/lgn.png" class="img-fluid logo"></a>
+				</div>
+				<div class="col-10">
+					<ul>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="produit.html">Les meilleur destination</a></li>
+						<li><a href="index.html">Acceuil</a></li>					
+					</ul>
+				</div>
+			</div>
+	  	</div>
+	</nav>
+	
+	<div id="pCont1">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 contactFiel">
+					<h1>Contact :</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, alias nemo voluptas, omnis id nulla modi. Hic minima alias modi totam quae, aliquam odit laboriosam eos aut doloremque officia a.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-sm-12">
+					<fieldset class="contactFiel">
+  						<input type="text" id="nbpers" placeholder="Votre Nom">
+					</fieldset>
+					<fieldset class="contactFiel">
+  						<input type="text" id="prenom" placeholder="Votre Prenom">
+					</fieldset>
+					<fieldset class="contactFiel">
+  						<input type="text" id="societer" placeholder="Votre Sociter">
+					</fieldset>
+				</div>
+				
+				<div class="col-lg-6 col-sm-12">
+					<fieldset class="contactFiel">
+  						<input type="email" id="email" placeholder="Votre E-mail">
+					</fieldset>
+					<fieldset class="contactFiel">
+ 						<legend>Sujet de votre demande</legend>
+  						<form method="post" action="traitement.php">
+							<p>
+							<select name="pays" id="pays" placeholder="Votre demande">
+								<option value="qsP">Question sur nos produit</option>
+								<option value="ppSav">Problème / SAV</option>
+								<option value="ccP">Contact professionnel</option>
+							</select>
+							</p>
+						</form>
+					</fieldset>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<fieldset class="contactFiel">
+						<p>
+						<textarea name="text" id="tt"></textarea>
+						</p>
+					</fieldset>
+				</div>
+				<fieldset class="contactFiel">
+ 						<legend></legend>
+  						<a href="#" class="btn btn-primary btn-lg">Recherche</a>
+  				</fieldset>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-1 col-sm-3">
+    				<a href="asheart.fr"><img alt="logo" class="img-fluid" src="image/lgn.png"></a>
+    			</div>
+    			<div class="col-lg-4 col-sm-12">
+    				<p><a href="www.asheart.fr">AsheArt Communication&#169;</a> Tous droits réservés</p>
+    				<p><a href="#">Mention légale</a> | <a href="contact.html">Contact</a> | <a href="#">Plan du site</a></p>
+    			</div>
+    			<div class="col-7">
+    				<a href="#"><i class="btn btn-dark fa fa-twitter-square fa-2x" aria-hidden="true"> Twitter</i></a>
+    				<a href="#"><i class="btn btn-dark fa fa-facebook-square fa-2x" aria-hidden="true"> Facebook</i></a>
+    				<a href="#"><i class="btn btn-dark fa fa-google-plus-square fa-2x" aria-hidden="true"> Google +</i></a>
+    				<a href="#"><i class="btn btn-dark fa fa-pinterest-square fa-2x" aria-hidden="true"> Pinterest</i></a>
+    				
+    			</div>
+    		</div>
+    	</div>	
+	  </footer>
+  </div>
